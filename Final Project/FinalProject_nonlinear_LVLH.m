@@ -18,7 +18,7 @@ q_0 = angle2quat(phi,theta,psi,'XYZ')';
 % orbital frequency (mean motion)
 % omega_c rad/sec
 
-orbit_alt = ; % km
+orbit_alt = 500; % km
 RE = 6378.137; % km
 mu = 398600.5; % km^3/s^2
 a = orbit_alt + RE; % km
